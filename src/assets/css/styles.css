@@ -1,0 +1,31 @@
+.header {
+  background-color: #F7E018;
+  height: 34rem;
+}
+
+.header .title h1 {
+  font-weight: bold;
+  color: black;
+}
+
+.header .about-me {
+  position: absolute;
+}
+
+.header .about-me .card .card-body .card-title {
+  text-align: center;
+}
+
+.header .about-me .card .card-body .card-subtitle {
+  text-align: center;
+}
+
+.certification-section {
+  height: 40rem;
+  color: #F7E018;
+}
+
+.certification-section .courses {
+  padding-top: 16rem;
+}
+/*# sourceMappingURL=styles.css.map */
