@@ -1,5 +1,8 @@
 .header{
-    background-color: #F7E018;
+    background-image: linear-gradient(rgba(247, 224, 24, 0.65), rgba(247, 224, 24, 0.65)), url(../img/React-developer.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     height: 34rem;
 
     .title{
@@ -24,9 +27,55 @@
 }
 
 .certification-section{
-    height: 40rem;
+    height: 45rem;
     color: #F7E018;
     .courses{
         padding-top: 16rem;
+    }
+}
+
+.section-projects{
+    height: 42rem;
+    .d-flex{
+        height: 42rem;
+    }
+}
+
+footer{
+    height: 15rem;
+    .networks{
+        color: white;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+                a{
+                    color: white;
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: rgb(167, 167, 167);
+                    transition: 300ms all;
+                }
+            }  
+        } 
+    }
+        
+    
+}
+
+.developed{
+    color: white;
+}
+
+@media only screen and (max-width: 767px){
+    .certification-section{
+        height: 95rem;
+    }
+    .courses-cards{
+        margin-top: 2rem;
     }
 }

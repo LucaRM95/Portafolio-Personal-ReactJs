@@ -1,4 +1,3 @@
-import './App.css';
 import LandingPage from './components/Home/LandingPage';
 import AppRouter from './Routes/AppRouter';
 
