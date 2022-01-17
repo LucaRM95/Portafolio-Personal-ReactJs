@@ -2,7 +2,7 @@ import React from 'react';
 
 const HumanSkills = () => {
     return (
-        <section className="seccion-secundaria pb-5">
+        <section className="seccion-secundaria">
             <div className="row fondo-flot">
                 <div data-aos="fade-right" className="col-auto flotantes">
                     <p>

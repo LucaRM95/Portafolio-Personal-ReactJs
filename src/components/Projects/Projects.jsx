@@ -1,9 +1,19 @@
 import React from 'react';
-import data from '../../Base/proyectos.json';
+//import data from '../../Base/proyectos.json';
 import '../../assets/css/card.css';
+import useFireBase from '../../Base/useFireBase';
 
 const Projects = () => {
 
+    const {data, loading} = useFireBase()
+
+    if(loading){
+        return (
+            <div>
+                CARGANDO...
+            </div>
+        )
+    }
     return data.map( project => {
         
         return (
