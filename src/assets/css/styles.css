@@ -32,7 +32,6 @@
 }
 
 .certification-section {
-  height: 45rem;
   color: #F7E018;
 }
 
@@ -41,8 +40,8 @@
 }
 
 .certification-section-alt {
-  height: 45rem;
   background-color: #69A7BF;
+  padding-bottom: 10rem;
 }
 
 .certification-section-alt .courses {
