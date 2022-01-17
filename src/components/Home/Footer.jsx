@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer id="contact" className="container-fluid bg-dark pb-5 pt-5">
             <div className="row">
-                <div className="d-flex-center col-md-8">
+                <div data-aos="fade-right" className="d-flex-center col-md-8">
                     <img src={logo} alt="" />
                     <h3>LucaRM Developer</h3>
                     <div className="mt-2">

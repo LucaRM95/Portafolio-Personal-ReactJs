@@ -2,7 +2,6 @@ import React from 'react';
 import jsAndjquery from '../../assets/img/JS-and-jQuery.png';
 import DesarrolloWeb from '../../assets/img/Desarrollo-web.png';
 import ReactAndHooks from '../../assets/img/React-reactHooks.png';
-import 'animate.css';
 
 const Certifications = ( { sassClass="certification-section container-fluid bg-dark", button="btn btn-outline-warning" } ) => {
 
@@ -10,7 +9,7 @@ const Certifications = ( { sassClass="certification-section container-fluid bg-d
         <div className={sassClass}>
             <div className="courses row justify-content-center">
                 <div className="col-md-12 ">
-                    <div className="row animate__animated animate__fadeInLeft">
+                    <div className="row">
                         <div className="courses-cards col-md-4">
                             <div className="d-flex flex-column align-items-center">
                                 <img className="rounded-circle" src={DesarrolloWeb} alt="developerWeb"/>

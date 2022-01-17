@@ -1,7 +1,7 @@
 import React from 'react';
-//import data from '../../Base/proyectos.json';
 import '../../assets/css/card.css';
 import useFireBase from '../../Base/useFireBase';
+
 
 const Projects = () => {
 
@@ -17,8 +17,8 @@ const Projects = () => {
     return data.map( project => {
         
         return (
-            <div key={project.id} className="animate__animated animate__fadeInLeft d-flex-center col-xxl-3 col-12 mt-5">
-                <div className="card-project">
+            <div key={project.id} className="d-flex-center col-xxl-3 col-12 mt-5">
+                <div className="card-project" data-aos="fade-right">
                     <div className="image">
                         <img src={project.img} alt="Projects"/>
                     </div>
