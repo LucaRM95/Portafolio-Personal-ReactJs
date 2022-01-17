@@ -1,3 +1,10 @@
+.line{
+    background-color: rgb(106, 173, 196);
+    height: 3px;
+    border-radius: 10px;
+    width: 50%;
+}
+
 .header{
     background-image: linear-gradient(rgba(247, 224, 24, 0.65), rgba(247, 224, 24, 0.65)), url(../img/React-developer.jpg);
     background-attachment: fixed;
@@ -26,6 +33,8 @@
     }
 }
 
+
+
 .certification-section{
     height: 45rem;
     color: #F7E018;
@@ -34,37 +43,94 @@
     }
 }
 
+.certification-section-alt{
+    height: 45rem;
+    background-color: #69A7BF;
+    .courses{
+        padding-top: 16rem;
+    }
+}
+
 .section-projects{
-    height: 42rem;
-    .d-flex{
-        height: 42rem;
+    padding-bottom: 3rem;
+    background-color: #69A7BF;
+    h1{
+        font-size: 3rem;
+    }   
+}
+
+.seccion-secundaria{
+    background-color: white;
+    h1{
+        color: #69A7BF;
+        font-size: 4rem;
+        width: 60%;
+    }
+    h4{
+        color: #69A7BF !important;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    .contenedor{
+        display: flex;
+        flex-flow: row;
+        margin-top: 6rem;
+        &__parrafos{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            &--texto{
+                text-align: center;
+                width: 80%;
+            }
+        }
+    }
+}
+
+/*Cuadro flotante*/
+.fondo-flot {
+    background: linear-gradient(0deg, white 70%, #212529 49%);
+    justify-content: flex-end;
+    .flotantes {
+        background-color: #69A7BF;
+        color: white;
+        width: 285px;
+        height: 330px;
+        align-items: center;
+        display: flex;
+        border-radius: 50px 0 0 50px; 
+        p {
+            padding: 25px;
+            font-size: 2rem; 
+        } 
     }
 }
 
 footer{
-    height: 15rem;
-    .networks{
+    color: white;
+    a{
+        text-decoration: none;
         color: white;
-        ul{
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            li{
-                list-style: none;
-                a{
-                    color: white;
-                    font-size: 1.2rem;
-                    text-decoration: none;
-                }
-                a:hover{
-                    color: rgb(167, 167, 167);
-                    transition: 300ms all;
-                }
-            }  
-        } 
+        &:hover{
+            color: #ccc;
+            transition: 300ms all;
+        }
     }
-        
-    
+    i::before{
+        font-size: 2rem;
+    }
+    img{
+        width: 20%;
+    }
+}
+
+.d-flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .developed{

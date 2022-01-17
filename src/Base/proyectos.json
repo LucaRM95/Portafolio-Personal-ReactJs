@@ -18,9 +18,9 @@
     {
         "id": 3,
         "title": "Mala Influencia Indumentaria ReactJs Version",
-        "img": "/static/media/MI-Indumentaria.cb18dc24.png",
-        "description": "Eccomerce de indumentaria realizada con HTML, CSS, Bootstrap, Sass, reactJs. Interacciones con los productos, agregarlos al carrito y finalizar la compra. Esta es una versión hecha con ReactJs",
-        "link": "https://github.com/LucaRM95/Coder-React-JS",
+        "img": "/static/media/MI-indumentaria-React.f493e72f.jpg",
+        "description": "Eccomerce de indumentaria realizada con HTML, CSS, Bootstrap, Sass, reactJs. Interacciones con los productos, agregarlos al carrito y finalizar la compra.",
+        "link": "https://mala-influencia.web.app/",
         "githubLink": "https://github.com/LucaRM95/Coder-React-JS"
     },
     {

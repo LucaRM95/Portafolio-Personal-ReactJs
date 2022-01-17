@@ -1,14 +1,11 @@
 import React from 'react';
-import About from '../About/About';
-import Certifications from '../About/Certifications';
 import HumanSkills from '../About/HumanSkills';
-import Projects from '../Projects/Projects';
+import Projects from './Projects';
 
-const LandingPage = () => {
+const ProjectPage = () => {
+
     return (
         <>
-            <About />
-            <Certifications />
             <HumanSkills />
             <div className="section-projects container-fluid">
                 <div className="d-flex justify-content-center">
@@ -22,4 +19,4 @@ const LandingPage = () => {
     )
 }
 
-export default LandingPage;
+export default ProjectPage;

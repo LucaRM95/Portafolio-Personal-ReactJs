@@ -1,13 +1,14 @@
 import React from 'react';
 import photo from '../../assets/img/image-about-me.png';
 import '../../assets/css/styles.css';
+import 'animate.css';
 
 const About = () => {
     return (
         <div className='container-fluid'>
             <div className="row">
                 <div className="header col-md-12">
-                    <div className="d-flex justify-content-center mt-5">
+                    <div className="d-flex justify-content-center mt-5 animate__animated animate__fadeInLeft">
                         <img className="rounded-circle" src={ photo } alt="" />
                     </div>
                     <div className="title col-md-12 d-flex justify-content-center mt-5">
@@ -15,7 +16,7 @@ const About = () => {
                     </div>
                     <div className="d-flex justify-content-center">
                         <div className="about-me mt-5">
-                            <div className="card" style={{width: 18+"rem"}}>
+                            <div className="card animate__animated animate__fadeInLeft" style={{width: 18+"rem"}}>
                                 <div className="card-body">
                                     <h5 className="card-title">Sobre Mí</h5>
                                     <h6 className="card-subtitle mb-2 text-muted">Luca Rojas Massey</h6>

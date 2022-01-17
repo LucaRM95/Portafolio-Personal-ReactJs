@@ -1,14 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import AboutPage from '../components/About/AboutPage';
 import LandingPage from '../components/Home/LandingPage';
+import ProjectPage from '../components/Projects/ProjectPage';
 
 const AppRouter = () => {
     return (
-        <Router>
             <Routes>
                 <Route path="/" element={<LandingPage />}/>
-            </Routes>
-        </Router>
+                <Route path="/proyectos" element={<ProjectPage />}/>
+                <Route path="/:id" element={<AboutPage />}/>
+            </Routes> 
     )
 }
 
