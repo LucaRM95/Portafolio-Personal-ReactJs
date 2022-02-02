@@ -42,7 +42,7 @@ const Certifications = ( { sassClass="certification-section container-fluid bg-d
                                 <h4 className="mt-5 mb-4">React</h4>
                                 <h6 className="card-subtitle mb-4">Certificado emitido por coderhouse</h6>
                                 <a 
-                                    href="https://www.coderhouse.com/certificados/619644d587868f0ada2e6c64"
+                                    href="https://www.coderhouse.com/certificados/61f85897af8fed00370745e5"
                                     className={button}
                                 >
                                     Ver certificado
