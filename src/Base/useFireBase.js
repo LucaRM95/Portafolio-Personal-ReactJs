@@ -1,5 +1,5 @@
 import db from './firebaseConfig';
-import { collection, doc, getDocs } from 'firebase/firestore';
+import { collection, getDocs } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 
 const useFireBase = () => {
